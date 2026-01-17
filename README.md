@@ -1,16 +1,75 @@
-# inventory_frontendtwo
+# Inventory Management System – Flutter (Web + Mobile)
 
-A new Flutter project.
+A **Flutter-based frontend** for the Inventory & Purchase Management System.  
+The application is designed to work on **Web and Mobile** platforms and consumes REST APIs provided by the Spring Boot backend.
 
-## Getting Started
+The UI focuses on **clarity, usability, and real-world ERP workflows**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Role-based UI (Admin / User)
+- Inventory dashboard
+- Vendor & product management
+- Purchase order creation
+- Purchase order approval
+- Goods receipt with quantity tracking
+- Vendor payment recording
+- Responsive UI (Web + Mobile)
+- API integration using Dio
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🧭 Application Flow
+
+### Role Selection
+- Admin
+- User
+
+### Admin Capabilities
+- View inventory
+- Add vendors
+- Add products
+- Approve purchase orders
+- Receive goods
+- Track vendor payments
+
+### User Capabilities
+- Create purchase orders
+
+---
+
+## 🖥️ Screens
+
+- Role Selection Screen
+- Admin Dashboard
+- User Dashboard
+- Inventory Screen
+- Vendor Screen
+- Product Screen
+- Purchase Order Screen
+- Approve Purchase Orders Screen
+- Goods Receipt Screen
+- Payment Screen
+
+---
+
+## 🌐 Deployment
+
+Frontend is deployed on **Netlify**.
+
+Live URL: https://coruscating-concha-602ac1.netlify.app/
+
+---
+
+## 📌 Purpose
+
+This frontend is built to:
+- Demonstrate full-stack integration
+- Showcase ERP-style workflows
+- Serve as a company assignment submission
+- Support interview explanation with live demo
+
+---
+
